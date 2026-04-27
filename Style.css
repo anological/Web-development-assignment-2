@@ -1,0 +1,54 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+}
+
+/* Cards */
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+}
+
+/* Testimonials */
+.testimonial {
+    border-left: 4px solid #333;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    font-style: italic;
+}
+
+/* Contact Form */
+input, textarea {
+    width: 60%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 8px 15px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
