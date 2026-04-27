@@ -1,0 +1,88 @@
+<!--
+Project Title: Company Landing Page
+Student Name: Rahul
+Date: 29 march 2026
+Description: Minimal company landing page using semantic HTML and CSS.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lorem Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Hero -->
+    <header>
+        <h1>Lorem Company</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+
+        <div class="card">
+            <h3>Service One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="card">
+            <h3>Service Two</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="card">
+            <h3>Service Three</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+
+        <div class="testimonial">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+            <strong>- John Doe</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>"Sed do eiusmod tempor incididunt ut labore et dolore."</p>
+            <strong>- Jane Smith</strong>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: lorem@email.com</p>
+        <p>Phone: +123 456 789</p>
+
+        <form>
+            <input type="text" placeholder="Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <textarea placeholder="Message"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Lorem Company</p>
+    </footer>
+
+</body>
+</html>
